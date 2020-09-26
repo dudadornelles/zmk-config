@@ -14,16 +14,16 @@
           &mt LALT MINUS &mt LGUI EQL &lt 1 SPC    &lt 2 SPC &mt RGUI LBKT &mt LALT RBKT
                         >;
                 };
-                layer_1 {
+                {
                         bindings = <
    &kp TILD  &kp NUM_1  &kp NUM_2  &kp NUM_3  &kp NUM_4  &kp NUM_5            &kp NUM_6 &kp NUM_7 &kp NUM_8 &kp NUM_9 &kp NUM_0 &kp DEL
-   &mt CRRT  &kp BANG   &kp ATSN   &kp HASH   &kp CURU   &kp PRCT             &kp CRRT  &kp AMPS &kp KMLT &kp LPRN &kp RPRN &kp PIPE
-   &kp LSFT  &trans     &trans     &trans     &trans     &trans               &trans    &trans   &trans   &trans   &kp FSLH &trans
+   &mt CRRT  &kp BANG   &kp ATSN   &kp HASH   &kp CURU   &kp PRCT             &kp CRRT  &kp AMPS  &kp KMLT  &kp LPRN  &kp RPRN  &kp PIPE
+   &kp LSFT  &trans     &trans     &trans     &trans     &trans               &trans    &trans    &trans    &trans    &kp FSLH  &trans
                                                 &trans  &trans  &trans     &trans &kp LPRN &kp RPRN
                         >;
                 };
 
-                layer_2 {
+               {
                         bindings = <
    &kp F1  &kp F2      &kp F3      &kp F4      &kp F5  &kp F6        &kp F7    &kp F8    &kp F9   &kp F10  &kp F11 &kp F12
    &trans  &trans      &trans      &trans      &trans  &trans        &kp LARW  &kp DARW  &kp UARW &kp RARW &trans &trans
