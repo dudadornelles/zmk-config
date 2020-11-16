@@ -16,18 +16,18 @@
                 };
                 layer_1 {
                         bindings = <
-   &kp GRAVE  &kp NUM_1  &kp NUM_2  &kp NUM_3  &kp NUM_4   &kp NUM_5            &kp NUM_6 &kp NUM_7 &kp NUM_8 &kp NUM_9 &kp NUM_0 &kp DEL
-   &kp TILDE  &kp BANG   &kp ATSN   &kp HASH   &kp DOLLAR  &kp PRCT             &kp CRRT  &kp AMPS  &kp KMLT  &kp LPRN  &kp RPRN  &kp PIPE
-   &kp LSFT  &trans     &trans     &trans     &bootloader   &reset                &reset    &bootloader    &trans    &trans    &kp FSLH  &trans
-                                                &trans  &trans  &trans     &trans &kp LPRN &kp RPRN
+   &kp GRAVE &kp NUM_1 &kp NUM_2 &kp NUM_3 &kp NUM_4   &kp NUM_5          &kp NUM_6 &kp NUM_7   &kp NUM_8 &kp NUM_9 &kp NUM_0 &kp DEL
+   &kp TILDE &kp BANG  &kp ATSN  &kp HASH  &kp DOLLAR  &kp PRCT           &kp CRRT  &kp AMPS    &kp KMLT  &kp LPRN  &kp RPRN  &kp PIPE
+   &kp LSFT  &trans    &trans    &trans    &bootloader &reset             &reset    &bootloader &trans    &trans    &kp FSLH  &trans
+                                           &trans  &trans  &trans     &trans &kp LPRN &kp RPRN
                         >;
                 };
 
                 layer_2 {
                         bindings = <
-   &kp F1  &kp F2      &kp F3      &kp F4      &kp F5  &kp F6        &kp F7    &kp F8    &kp F9   &kp F10  &kp F11 &kp F12
-   &trans  &trans      &trans      &trans      &trans  &trans        &kp LARW  &kp DARW  &kp UARW &kp RARW &trans &trans
-   &trans  &kp C_PLAY  &kp C_PREV  &kp C_NEXT  &trans  &trans        &trans    &trans    &trans   &trans   &kp BSLH &kp TILD
+   &kp F1  &kp F2      &kp F3      &kp F4      &kp F5  &kp F6        &kp F7   &kp F8      &kp F9  &kp F10   &kp F11  &kp F12
+   &trans  &trans      &trans      &trans      &trans  &trans        &kp LEFT &kp DOWN    &kp UP  &kp RIGHT &trans   &trans
+   &trans  &kp C_PLAY  &kp C_PREV  &kp C_NEXT  &trans  &trans        &reset   &bootloader &trans  &trans    &kp BSLH &kp TILD
                                            &trans &trans &trans   &trans  &trans &trans
                         >;
                 };
